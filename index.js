@@ -10,7 +10,7 @@ const PORT = 5000;
 
 app.use(express.json());
 
-const MONGODB_URI = `mongodb+srv://admin:admin@cluster0.sqnincp.mongodb.net/`;
+const MONGODB_URI = `mongodb+srv://admin:admin@cluster0.ur9er0t.mongodb.net/`;
 
 mongoose
   .connect(MONGODB_URI)
