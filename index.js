@@ -3,12 +3,14 @@ import express from "express";
 import mongoose from "mongoose";
 import { userModel } from "./model/userSchema.js";
 import bcrypt from "bcryptjs";
+import cors from "cors";
 
 const app = express();
 
 const PORT = 5000;
 
 app.use(express.json());
+app.use(cors());
 
 const MONGODB_URI = `mongodb+srv://admin:admin@cluster0.ur9er0t.mongodb.net/`;
 
